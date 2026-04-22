@@ -1,50 +1,67 @@
-GlucoTrackAI: Simplfying the Diabetic Experience
-Software Engineering Techniques (CSE 3232) | The Ohio State University
-🚀 Project Vision
-GlucoTrackAI was conceived as a comprehensive solution to the "Cognitive Tax" of diabetes. For Type 1 and Type 2 insulin-dependent users, managing health is often a fragmented, high-friction experience. Our goal was to design an all-in-one, affordable, and hardware-agnostic platform that bridges the gap between patients, data, and caregivers.
+# 🩸 GlucoTrackAI
+> **Simplifying the Diabetic Experience through User-Centric Engineering.**
+> *A Semester-Long Project for CSE 3231: Software Engineering Techniques at The Ohio State University.*
 
-Status: This repository contains the full Semester-Long Project Documentation, including requirements, architectural design, and UI/UX research.
-Next Phase: Developing a high-fidelity interactive prototype using Figma and Claude/React.
+---
 
-🛠 The Problem & Our Solution
-Managing diabetes currently requires juggling multiple apps for CGMs (Continuous Glucose Monitors), insulin pumps, and manual carbohydrate logging.
+## 🚀 Project Vision
+**GlucoTrackAI** was conceived as a comprehensive solution to the **"Cognitive Tax"** of diabetes. For Type 1 and Type 2 insulin-dependent users, managing health is often a fragmented, high-friction experience. This all started as a Hackathon Project back at SteelHacks 2025 (Pittsburg, PA) where me and a couple of my friends (Joselyn Vasquez, Krista Bair, Anika Talyan) were able to interview Krista's family friend Alex who had Type 1 Diabetes, and her mom who was her caregiver growing up since Alex was diagnosed at a very young age. This project to me aims to bring alive this concept from a quick prototype using replit to a working and functional prototype; ultimately, creating a new way for those with Type 1 & Type 2 diabetes to manage their condition better! 
 
-GlucoTrackAI solves this through:
+Our goal was to design an **all-in-one, affordable, and hardware-agnostic platform** that bridges the gap between patients, data, and caregivers. We replace "math fatigue" and app-switching with a streamlined, AI-integrated command center.
 
-The Unified Dashboard: Consolidating disparate data streams into one UI.
+* **Status:** ✅ Phase 1 (Documentation & Research) Complete
+* **Current Focus:** 🏗️ Phase 2 (High-Fidelity Prototyping)
 
-Caregiver Sync: Real-time monitoring for parents and guardians to reduce "caregiver burnout."
+---
 
-Affordability: A software-first approach that removes the need for expensive proprietary receivers.
+## 🛠️ The Problem & Our Solution
+Managing diabetes currently requires juggling multiple hardware silos (CGMs, insulin pumps) and manual logs.
 
-📂 Documentation & Deliverables
-This repository showcases our systematic approach to the Software Development Life Cycle (SDLC):
+### **The Solution**
+* **The Unified Dashboard:** Consolidating disparate data streams (Dexcom, Medtronic, etc.) into one cohesive UI.
+* **Caregiver Sync:** Real-time monitoring and "Last Action" logs to reduce caregiver burnout and anxiety.
+* **Affordability:** A software-first approach that turns any smartphone into a medical receiver, eliminating the need for expensive proprietary handhelds.
 
-Requirement Analysis: User stories and functional requirements for diabetics and caregivers.
+---
 
-Architectural Design: High-level system diagrams including data flow from Health APIs to our backend.
+## 📂 SDLC Documentation & Deliverables
+This repository documents our systematic approach to the **Software Development Life Cycle**:
 
-UI/UX Research: Personas and wireframes focused on accessibility (high contrast, easy-to-tap touch targets).
+### 📋 **1. Requirement Analysis**
+Comprehensive user stories and functional requirements mapping the needs of both primary users (diabetics) and secondary users (caregivers).
 
-Testing Strategy: Unit and integration testing plans for HIPAA-compliant data handling.
+### 🏗️ **2. Architectural Design**
+High-level system architecture diagrams illustrating data flow from external Health APIs to our secure backend, prioritizing low latency for glucose alerts.
 
-🗺 Roadmap: From Paper to Prototype
-The next phase of this project involves transforming these theoretical documents into a working visual model.
+### 🎨 **3. UI/UX Research**
+Persona development and low-fidelity wireframes designed for **accessibility**. Features include high-contrast modes and "one-tap" insulin logging to accommodate users during hypoglycemic episodes.
 
-Design Phase (Figma): Building a design system that prioritizes speed—minimizing the clicks required to log a meal or view a glucose trend.
+### 🧪 **4. Testing & Compliance**
+Strategic plans for unit and integration testing, specifically focusing on **HIPAA-compliant** data handling and encryption at rest.
 
-Logic Phase (Claude/React): Utilizing AI to generate the frontend components (React/Next.js) and simulating live glucose data streams.
+---
 
-Integration: Mocking API calls to simulate real-world CGM data syncing.
+## 🗺️ Roadmap: From Paper to Prototype
+We are currently transitioning from theoretical documentation to a functional visual model.
 
-🏫 Academic Context
-Course: Software Engineering Techniques (Ohio State University)
+* **Design Phase (Figma):** Crafting a design system that minimizes "Time to Action"—ensuring users can log meals in under 5 seconds.
+* **Logic Phase (Claude + React):** Utilizing AI-assisted development to build out the frontend components in **Next.js** and **Tailwind CSS**.
+* **Integration:** Developing mock API hooks to simulate live CGM data streams and predictive trend analysis.
 
-Semester: Spring 2026
+---
 
-Team: [Your Group Name/Members]
+## 🏫 Academic Context
+| Field | Details |
+| :--- | :--- |
+| **Institution** | The Ohio State University |
+| **Course** | CSE 3232: Software Engineering Techniques |
+| **Semester** | Spring 2026 |
+| **Role** | Architect & Researcher |
+| **Team** | Melvin Vasquez, Armita Fard, Ethan Vincent, Zerin Merin, Mason Rush |
 
-Role: [Your Role, e.g., Project Lead / Lead Architect]
+---
 
-How to Use This Repository
-Feel free to explore the /docs folder to see the full scope of our engineering process. This project demonstrates our ability to take a complex, high-stakes medical problem and apply rigorous SWE principles to create a user-centric solution.
+## 📖 How to Use This Repository
+The core engineering work is located in the `/docs` folder. This project demonstrates the ability to translate complex medical requirements into a structured, scalable software blueprint. 
+
+> **Looking for the prototype?** Stay tuned for the `/prototype` directory, coming Summer 2026.
